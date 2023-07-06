@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <TodoList todoLists={todos}/>
+      
       <input ref={todoNameRef}type="text"/>
       <button onClick={handleAddToDo}> Add to-do</button>
       <button>Clear Completed to-do</button>
